@@ -1,16 +1,78 @@
-# React + Vite
+# 🏥 Sistema Hospitalario Distribuido - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Descripción
 
-Currently, two official plugins are available:
+Esta landing page forma parte de un sistema hospitalario distribuido basado en una arquitectura de microservicios desplegada en AWS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Su objetivo principal es servir como punto de entrada para los usuarios, proporcionando una visión general del sistema y redirigiendo al frontend principal.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Características
 
-## Expanding the ESLint configuration
+* Interfaz moderna desarrollada en **React + Vite**
+* Estilos profesionales con **Tailwind CSS**
+* Diseño responsive (adaptable a diferentes dispositivos)
+* Presentación de la arquitectura del sistema
+* Descripción de los módulos principales:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * Citas
+  * Expedientes
+  * Quirófanos
+  * Personal
+  * Motor SQL
+  * API Gateway
+
+---
+
+## 🧠 Arquitectura del Sistema
+
+El sistema está basado en una arquitectura distribuida:
+
+```
+Usuario → Landing Page → Frontend React → API Gateway → Microservicios → Bases de Datos
+```
+
+Tecnologías utilizadas:
+
+* Frontend: React + Tailwind
+* Backend: FastAPI, Go
+* Bases de datos: MySQL, PostgreSQL, MariaDB, Redis
+* Infraestructura: AWS (CloudFront, EC2, API Gateway)
+
+---
+
+## 🔗 Funcionalidad
+
+La landing page permite:
+
+* Visualizar la estructura del sistema
+* Comprender los módulos principales
+* Redirigir al sistema hospitalario principal
+
+---
+
+## 🛠️ Instalación y ejecución
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 👨‍💻 Autor
+Kevin Gabriel Castellanos De La Cruz
+Diego Antonio Galvez Rodriguez
+Jose Antonio Matuz Argueta
+Anderson Velasco De Leon
+
+Proyecto académico desarrollado como parte de un sistema hospitalario distribuido.
+
+---
+
+## 📌 Notas
+
+Esta landing page no contiene lógica de negocio ni conexión directa a microservicios.
+Su función es exclusivamente informativa y de redirección.
+
