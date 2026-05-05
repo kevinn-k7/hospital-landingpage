@@ -62,9 +62,9 @@ npm run dev
 ---
 
 ## 👨‍💻 Autor
-Kevin Gabriel Castellanos De La Cruz
-Diego Antonio Galvez Rodriguez
-Jose Antonio Matuz Argueta
+Kevin Gabriel Castellanos De La Cruz |
+Diego Antonio Galvez Rodriguez |
+Jose Antonio Matuz Argueta |
 Anderson Velasco De Leon
 
 Proyecto académico desarrollado como parte de un sistema hospitalario distribuido.
